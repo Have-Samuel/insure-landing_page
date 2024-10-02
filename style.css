@@ -32,6 +32,21 @@ main {
     padding: 20px; */
 }
 
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1.5rem ;
+    height: 81px;
+}
+
+header nav 
+
+ul {
+    /* display: flex;
+    list-style: none; */
+    display: none;
+}
 
 
 
