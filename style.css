@@ -17,14 +17,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F2F2F2;
 }
 
 body {
     width: 375px;
     margin: 0 auto;
+    background-color: #F2F2F2;
 }
 
+main {
+    background-color: white;
+    /* margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px; */
+}
 
 
 
