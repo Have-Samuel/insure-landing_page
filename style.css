@@ -199,25 +199,23 @@ header nav {
     letter-spacing: 0.1rem;
 }
 
-.media {
+.media_whole {
     height: 1025px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     margin-top: 9rem;
     background: url('./images/bg-pattern-footer-mobile.svg'), #d8d7d7;
     background-repeat: no-repeat;
 }
 
-.media .start-part {
+.start-part {
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2.3rem;
-    padding: 1.5rem;
-    /* border-bottom: 1px solid #b11b1b; */
+    padding: 1.5rem 1.5rem 0 1.5rem;
 }
 
 .media-items {
@@ -227,9 +225,33 @@ header nav {
 
 .colored {
     width: 80%;
-    margin: 8rem auto 0 auto;
+    margin: 4rem auto 2rem auto;
     height: 2px;
-    color: #b11b1b;
+    color: #000;
+    z-index: 1;
+}
+
+.media_whole .media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.media_whole .media ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .attribution {
