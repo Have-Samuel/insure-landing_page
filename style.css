@@ -23,6 +23,7 @@ body {
     width: 375px;
     height: 3851px;
     background-color: #F2F2F2;
+    margin: 0 auto;
 }
 
 main {
@@ -35,20 +36,27 @@ header nav {
     align-items: center;
     margin: 0 1.5rem ;
     height: 81px;
-    /* padding: 20px; */
 }
-
+.first-1 {
+    display: flex;
+}
 ul {
     display: none;
 }
 
-
 .intro-page {
+    background: url('./images/bg-pattern-intro-left-mobile.svg'), url('./images/bg-pattern-intro-right-mobile.svg'), #2D2641;
+    background-repeat: no-repeat;
+    background-position: 0 0, 100% 205%;
+    z-index: 1;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 3.5rem;
+    /* margin-top: 3.5rem; */
+    /* border: 1px solid; */
+
 }
 
 
