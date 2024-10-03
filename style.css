@@ -23,6 +23,7 @@ body {
     width: 375px;
     height: 3851px;
     background-color: #F2F2F2;
+    margin: 0 auto;
 }
 
 main {
@@ -35,22 +36,223 @@ header nav {
     align-items: center;
     margin: 0 1.5rem ;
     height: 81px;
-    /* padding: 20px; */
+}
+.first-1 {
+    display: flex;
 }
 
-ul {
+.display {
     display: none;
 }
 
-
 .intro-page {
+    /* max-width: 1170px; */
+    background: url('./images/bg-pattern-intro-left-mobile.svg'), url('./images/bg-pattern-intro-right-mobile.svg'), #2D2641;
+    background-repeat: no-repeat;
+    background-position: 0 0, 100% 205%;
+    z-index: 1;
+    height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    margin-top: 3.5rem;
+    padding: 5.4rem 1.5rem;
 }
 
+.intro-page h1 {
+    font-family: 'DM  sans-serif';
+    font-size: 2.81rem;
+    color: white;
+    text-align: center;
+    margin: 0 1.5rem;
+    width: 333px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2;
+}
+
+.intro-page p {
+    width: 327px;
+    text-align: center;
+    color: #fff;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    margin-top: 0.9rem;
+    opacity: 0.7;
+    font-size: 1rem;
+}
+
+.intro-page button {
+    background-color: transparent;
+    color: white;
+    border: 2.2px solid #fff;
+    border-radius: 25px;
+    padding: 0.5rem 2.1rem;
+    margin-top: 1.5rem;
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.line-1 {
+    width: 50%;
+    margin: 8rem auto 0 auto;
+    height: 1px;
+    background-color: #e0e0e0;
+}
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.section-1 h2 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    text-align: center;
+    color: #2C2830;
+}
+
+.portion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.portion img {
+    display: block;
+    margin: 1rem auto;
+}
+
+.portion h3 {
+    color: #2c2830;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    padding: 0.8rem;
+}
+
+.portion p {
+    color: #837d88;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.lower-part {
+    margin: 7rem auto 0 auto;
+    width: 327px;
+    height: 344px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    background: url('./images/bg-pattern-how-we-work-mobile.svg'), #2D2641;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+}
+
+.lower-part h2 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    line-height: 1;
+    text-align: center;
+    color: #fff;
+    margin-top: 3.1rem;
+}
+
+.lower-part button {
+    background-color: transparent;
+    color: white;
+    border: 2.2px solid #fff;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+    margin-top: 2.5rem;
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.media_whole {
+    height: 1025px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9rem;
+    background: url('./images/bg-pattern-footer-mobile.svg'), #d8d7d7;
+    background-repeat: no-repeat;
+}
+
+.start-part {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.3rem;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.media-items {
+    display: flex;
+    gap: 0.7rem;
+}
+
+.colored {
+    width: 80%;
+    margin: 4rem auto 2rem auto;
+    height: 2px;
+    color: #000;
+    z-index: 1;
+}
+
+.media_whole .media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.media_whole .media ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    
+}
 
 .attribution {
     font-size: 11px; text-align: center;
