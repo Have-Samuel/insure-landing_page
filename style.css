@@ -199,6 +199,39 @@ header nav {
     letter-spacing: 0.1rem;
 }
 
+.media {
+    height: 1025px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9rem;
+    background: url('./images/bg-pattern-footer-mobile.svg'), #d8d7d7;
+    background-repeat: no-repeat;
+}
+
+.media .start-part {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.3rem;
+    padding: 1.5rem;
+    /* border-bottom: 1px solid #b11b1b; */
+}
+
+.media-items {
+    display: flex;
+    gap: 0.7rem;
+}
+
+.colored {
+    width: 80%;
+    margin: 8rem auto 0 auto;
+    height: 2px;
+    color: #b11b1b;
+}
+
 .attribution {
     font-size: 11px; text-align: center;
 }
