@@ -40,7 +40,8 @@ header nav {
 .first-1 {
     display: flex;
 }
-ul {
+
+.display {
     display: none;
 }
 
