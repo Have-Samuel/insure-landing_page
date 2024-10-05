@@ -48,9 +48,12 @@ header nav {
     height: 81px;
 }
 
-.icon:hover {
+.hamburger:hover {
     cursor: pointer;
-    
+}
+
+.appear-not {
+    display: none;
 }
 
 .first-1 {
