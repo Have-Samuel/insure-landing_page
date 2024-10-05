@@ -61,6 +61,10 @@ header nav {
     display: none;
 }
 
+.change {
+    right: 0;
+  }
+
 .intro-page {
     /* max-width: 1170px; */
     background: url('./images/bg-pattern-intro-left-mobile.svg'), url('./images/bg-pattern-intro-right-mobile.svg'), #2D2641;
