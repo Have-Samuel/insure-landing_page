@@ -33,9 +33,7 @@ header {
     background-color: white;
     width: 375px;
     height: 81px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    /* display: flex; */
     position: relative;
     z-index: 1;
 }
@@ -48,11 +46,30 @@ header nav {
     height: 81px;
 }
 
+.hamburger {
+    display: block;
+    z-index: 100;
+    cursor: pointer;
+    border: 1px solid red;
+}
+  
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
 .hamburger:hover {
     cursor: pointer;
 }
 
-.appear-not {
+.close {
     display: none;
 }
 
