@@ -54,21 +54,13 @@ header {
     padding: 0 1.5rem;
 }
 
-.hamburger {
-    display: block;
-    z-index: 100;
-    cursor: pointer;
-    border: 1px solid red;
-}
-
 .bar {
     display: flex;
     width: 30px;
     height: 2px;
     margin: 6px auto;
-    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #968e8e;
+    background-color: #2d2641;
   }
   
 .hamburger.active .bar:nth-child(2) {
