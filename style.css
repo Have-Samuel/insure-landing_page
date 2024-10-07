@@ -96,9 +96,10 @@ header {
     display: flex;
 }
 
-.display {
-    /* display: none; */
-}
+/* .display {
+    display: flex;
+    align-items: center;
+} */
 
 header nav {
     font-style: normal;
@@ -147,9 +148,7 @@ nav ul li a:hover {
     border: 2px solid #fff;
     border-radius: 25px;
     padding: 0.5rem 2rem;
-    
     background-color: #ffd207;
-    /* color: #ffd207; */
     text-decoration: none;
     color: #2D2641;
 }
