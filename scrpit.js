@@ -11,4 +11,6 @@ list.forEach((item) => {
   });
 });
 
-mennuIcon.addEventListener('click', () => { 
+mennuIcon.addEventListener('click', () => {
+  
+});
