@@ -1,16 +1,8 @@
 // Working on the Popup
+const menuPop = document.querySelector('.hamburger');
 const navbar = document.querySelector('.navbar');
-const menu = document.querySelector('.display');
-const mennuIcon = document.querySelector('.icon');
-const list = document.querySelector('.display > li');
 
-list.forEach((item) => {
-  item.addEventListener('click', () => {
-    navbar.classList.remove('active');
-    menu.classList.remove('active');
-  });
-});
-
-mennuIcon.addEventListener('click', () => {
-  
+menuPop.addEventListener('click', () => {
+  menuPop.classList.toggle('active');
+  navbar.classList.toggle('active');
 });
