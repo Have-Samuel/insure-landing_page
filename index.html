@@ -7,26 +7,68 @@
   <link rel="stylesheet" href="./style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
    <title>Frontend Mentor | Insure landing page</title>
+   <script src="./scrpit.js" defer></script>
 </head>
 <body>
   <main>
     <header>
-      <nav>
+
+      <div class="overlay">
         <img class="logo" src="./images/logo.svg" alt="Insure logo">
-        <img class="icon" src="./images/icon-hamburger.svg" alt="Hamburger icon" srcset="">
+        <div class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+
+        <nav class="navbar-m">
         <ul class="display">
-          <li><a href="#">How we work</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Account</a></li>
-          <li><a href="#">View plans</a></li>
+          <li class="nav-list">
+            <a href="#" class="nav-link-1">How we work</a>
+          </li>
+          <li class="nav-list">
+            <a href="#" class="nav-link-1">Blog</a>
+          </li>
+          <li class="nav-list">
+            <a href="#" class="nav-link-1">Account</a>
+          </li>
+          <li class="nav-list">
+            <a href="#" class="nav-link-1">View plans</a>
+          </li>
         </ul>
       </nav>
+      <nav class="desktop-nav">
+        <div class="logo-links">
+          <div class="desktop-img">
+            <h2 class="desktop-headin">insure</h2>
+          </div>
+        <ul class="desktop-items">
+          <li class="nav-list">
+            <a href="#" class="nav-link-1 culor">How we work</a>
+          </li>
+          <li class="nav-list">
+            <a href="#" class="nav-link-1 culor">Blog</a>
+          </li>
+          <li class="nav-list">
+            <a href="#" class="nav-link-1 culor">Account</a>
+          </li>
+          <li class="nav-list">
+            <a href="#" class="nav-link-1 xtend">View plans</a>
+          </li>
+        </ul>
+      </div>
+      </nav>
     </header>
-      <div class="first-1"><img src="./images/image-intro-mobile.jpg" alt=""></div>
+      <div class="first-1">
+        <img src="./images/image-intro-mobile.jpg" alt="">
+      </div>
       <div class="intro-page">
-        <h1>Humanizing your insurance.</h1>
-      <p>Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that's right for you. Ensure you and your loved ones are protected.</p>
-      <button type="button">View plans</button>
+        <div class="clean">
+          <h1>Humanizing your insurance.</h1>
+          <p>Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that's right for you. Ensure you and your loved ones are protected.</p>
+          <button type="button">View plans</button>
+        </div>
       </div>
       <hr class="line-1">
     <section class="section-1">
