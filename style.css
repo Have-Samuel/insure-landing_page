@@ -84,10 +84,8 @@ header {
     cursor: pointer;
 }
 
-
 .first-1 {
-    display: flex;
-    border: 5px solid red;
+    display: flex; 
 }
 
 .first-1 img {
