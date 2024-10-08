@@ -331,6 +331,11 @@ nav ul li a:hover {
     gap: 0.7rem;
 }
 
+.media-items img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .colored {
     width: 80%;
     margin: 4rem auto 2rem auto;
@@ -410,7 +415,7 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-@media( min-width: 1440px) {
+/* @media( min-width: 1440px) {
     .navbar {
         display: none;
     }
@@ -532,4 +537,4 @@ nav ul li a:hover {
 
     }
 
-}
+} */
