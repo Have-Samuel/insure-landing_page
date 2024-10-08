@@ -213,6 +213,12 @@ nav ul li a:hover {
     letter-spacing: 0.1rem;
 }
 
+.intro-page button:hover {
+    background-color: #ffd207;
+    color: #2D2641;
+    border: 2px solid #ffd207;
+}
+
 .line-1 {
     width: 50%;
     margin: 8rem auto 0 auto;
@@ -305,6 +311,12 @@ nav ul li a:hover {
     align-items: center;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+}
+
+.lower-part button:hover {
+    background-color: #ffd207;
+    color: #2D2641;
+    border: 2px solid #ffd207;
 }
 
 .media_whole {
