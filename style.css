@@ -159,13 +159,16 @@ header {
     background-position: 0 0, 100% 205%;
     z-index: 1;
     height: 500px;
+}
+
+.clean {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5.4rem 1.5rem;
 }
 
-.intro-page h1 {
+.clean h1 {
     font-family: 'DM  sans-serif';
     font-size: 2.81rem;
     color: white;
@@ -178,7 +181,7 @@ header {
     line-height: 1.2;
 }
 
-.intro-page p {
+.clean p {
     width: 327px;
     text-align: center;
     color: #fff;
@@ -191,7 +194,7 @@ header {
     font-size: 1rem;
 }
 
-.intro-page button {
+.clean button {
     background-color: transparent;
     color: white;
     border: 2.2px solid #fff;
@@ -223,6 +226,7 @@ header {
     height: 1px;
     background-color: #e0e0e0;
 }
+
 .section-1 {
     display: flex;
     flex-direction: column;
@@ -550,17 +554,13 @@ header {
         height: 500px;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         padding: 5.4rem 1.5rem;
         position: relative;
         /* z-index:  -1; */
       }
 
       .first-1 {
-        /* background: url('./images/bg-pattern-intro-left-desktop.svg'), url('./images/bg-pattern-intro-right-desktop.svg');
-        background-repeat: no-repeat;
-        background-position: 0 0, 100% 205%; */
-
         display: flex;
         position: absolute;
         top: 235px;
@@ -580,7 +580,7 @@ header {
             font-family: 'DM Serif Display', serif;
             font-size: 3.5rem;
             color: white;
-            text-align: center;
+            text-align: flex-start;
             margin: 0 1.5rem;
             width: 333px;
             font-family: "DM Serif Display", serif;
@@ -588,5 +588,9 @@ header {
             font-style: normal;
             line-height: 1.2;
         }
+
+        .line-1 {
+            width: 10%;
+        } 
 
     }
