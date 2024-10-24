@@ -6,3 +6,5 @@ menuPop.addEventListener('click', () => {
   menuPop.classList.toggle('active');
   navbar.classList.toggle('active');
 });
+
+// Menu Items
