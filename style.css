@@ -569,11 +569,6 @@ header {
         margin: 0 auto;
       }
 
-      .desktop-line {
-        width: 10px;
-        margin-top: -10rem !important;
-      }
-
         .clean {
             width: 540px;
             /* height: 304px; */
@@ -582,9 +577,16 @@ header {
             /* align-items: flex-start; */
             margin: 0 11rem;
             border: 2px solid red;
-            border-top: #ffd207 4px solid;
+            /* border-top: #ffd207 4px solid; */
             /* padding-top: 3rem; */
         }
+
+        .clean .line-2 {
+            border: 1px solid #979797;
+            width: 150px;
+            align-self: start;
+            margin-left: -1.5rem;
+          }
         
         .clean h1 {
             /* width: 10%; */
@@ -599,14 +601,14 @@ header {
             font-style: normal;
             /* align-self: flex; */
             margin-right: 1.5rem;
-            margin-top: 9rem;
+            margin-top: 4rem;
             text-align: start;
         }
 
         .first-1 {
             display: flex;
             position: absolute;
-            top: 265px;
+            top: 183px;
             left: 794px;
             width: 100%;
             height: 500px;
