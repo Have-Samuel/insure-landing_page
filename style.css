@@ -447,6 +447,7 @@ header {
         margin: 0 auto;
         position: relative;
         z-index: 1;
+        background-color: black;
     }
         
     /* header {
@@ -525,6 +526,15 @@ header {
         letter-spacing: -0.2rem;
         text-transform: uppercase;
         font-family: 'Karla', sans-serif;
+      }
+
+      .section-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem;
+        background-color: #ffffff;
+        
       }
 
       .intro-page {
@@ -609,6 +619,18 @@ header {
 
         .line-1 {
             width: 10%;
-        } 
+        }
+
+        .media_whole {
+            height: 1025px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 9rem;
+            background: url('./images/bg-pattern-footer-desktop.svg'), #d8d8d8;
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            background-size: cover;
+        }
 
     }
