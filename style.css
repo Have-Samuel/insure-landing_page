@@ -31,15 +31,6 @@ main {
 }
 
 header {
-    /* background-color: white;
-    width: 375px;
-    height: 81px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1.5rem;
-    position: relative;
-    z-index: 1; */
     display: flex;
     position: relative;
     align-items: center;
@@ -93,11 +84,6 @@ header {
     height: 451px;
 }
 
-/* .display {
-    display: flex;
-    align-items: center;
-} */
-
 .navbar-m {
     font-style: normal;
     text-align: left;
@@ -106,8 +92,6 @@ header {
     top: 0;
     right: -250vh;
 }
-
-/* POPUP */
 
 .navbar-m ul {
     background: url('./images/bg-pattern-mobile-nav.svg'), #2D2641;
