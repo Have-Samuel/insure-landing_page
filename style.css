@@ -338,9 +338,6 @@ header {
 .colored {
     width: 80%;
     margin: 4rem auto 2rem auto;
-    /* height: 2px;
-    color: #000;
-    z-index: 1; */
 }
 
 .media_whole .media {
@@ -478,9 +475,6 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* height: 81px; */
-        /* padding: 0 2rem; */
-        /* border: 2px solid red; */
     }
 
     .logo-links {
@@ -517,7 +511,6 @@ header {
     }
 
     .desktop-items li a {
-        /* color: #2D2641; */
         color: #837D88;
         font-family: 'Karla', sans-serif;
         font-size: 1rem;
@@ -527,7 +520,6 @@ header {
         text-align: center;
         text-decoration: none;
         text-transform: uppercase;
-        /* margin-top: 3rem; */
     }
 
     .desktop-img h2 {
@@ -549,20 +541,14 @@ header {
         z-index: 0;
         height: 600px;
         position: relative;
-        /* border: 2px solid red; */
         margin: 0 auto;
       }
 
         .clean {
             width: 540px;
-            /* height: 304px; */
             display: flex;
             flex-direction: column;
-            /* align-items: flex-start; */
             margin: 0 11rem;
-            /* border: 2px solid red; */
-            /* border-top: #ffd207 4px solid; */
-            /* padding-top: 3rem; */
         }
 
         .clean .line-2 {
@@ -573,17 +559,13 @@ header {
           }
         
         .clean h1 {
-            /* width: 10%; */
             width: 540px;
-            /* border: 3px solid red; */
             font-family: 'DM Serif Display', serif;
             font-size: 3.5rem;
             color: white;
-            /* text-align: flex-start; */
             font-family: "DM Serif Display", serif;
             font-weight: 400;
             font-style: normal;
-            /* align-self: flex; */
             margin-right: 1.5rem;
             margin-top: 4rem;
             text-align: start;
