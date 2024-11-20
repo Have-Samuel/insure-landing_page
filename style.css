@@ -125,12 +125,10 @@ header {
 }
 
 .navbar-m ul li a:hover {
-    border: 1px solid #2D2641;
-    border-radius: 25px;
+    border: 2px solid #727174;
     padding: 0.5rem 2rem;
-    background-color: #ffd207;
     text-decoration: none;
-    color: #2D2641;
+    color: #b9b3b3;
 }
 
 .change {
@@ -183,7 +181,6 @@ header {
     background-color: transparent;
     color: white;
     border: 2.2px solid #fff;
-    border-radius: 25px;
     padding: 0.5rem 2.1rem;
     margin-top: 1.5rem;
     font-family: "Karla", sans-serif;
@@ -200,9 +197,9 @@ header {
 }
 
 .intro-page button:hover {
-    background-color: #ffd207;
-    color: #2D2641;
-    border: 2px solid #ffd207;
+    color: #b9b3b3;
+    border: 2px solid #727174;
+
 }
 
 .line-1 {
@@ -284,7 +281,6 @@ header {
     background-color: transparent;
     color: white;
     border: 2.2px solid #fff;
-    border-radius: 25px;
     padding: 0.5rem 2rem;
     margin-top: 2.5rem;
     font-family: "Karla", sans-serif;
@@ -301,9 +297,8 @@ header {
 }
 
 .lower-part button:hover {
-    background-color: #ffd207;
-    color: #2D2641;
-    border: 2px solid #ffd207;
+    color: #b9b3b3;
+    border: 2px solid #727174;
 }
 
 .media_whole {
@@ -502,11 +497,10 @@ header {
         width: 100%;
         border: 3px solid #2C2830;
         padding: 0.6rem 1.6rem;
-        border-radius: 25px;
     }
 
     .xtend:hover {
-        background-color: #2C2830;
+        background-color: #000000;
         color: #fff;
     }
 
@@ -578,7 +572,6 @@ header {
 
         .clean button {
             margin-left: -22.3rem;
-            border-radius: 30px;
             padding: 0.8rem 2.6rem;
             margin-top: 2rem;
             font-weight: 700;
@@ -590,6 +583,12 @@ header {
             justify-content: center;
             align-items: center;
             letter-spacing: 0.1rem;
+        }
+
+        .clean button:hover {
+            color: #000000;
+            border: 2px solid #727174;
+            background-color: #fff;
         }
 
         .first-1 {
