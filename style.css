@@ -75,15 +75,6 @@ header {
     cursor: pointer;
 }
 
-.first-1 {
-    display: flex; 
-}
-
-.first-1 img {
-    width: 375px;
-    height: 451px;
-}
-
 .navbar-m {
     font-style: normal;
     text-align: left;
@@ -108,7 +99,7 @@ header {
     width: 375px;
     height: 590px;
     list-style: none;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .navbar-m ul li a {
@@ -135,11 +126,18 @@ header {
     right: 0;
   }
 
-.intro-page {
+.cover-page {
     background: url('./images/bg-pattern-intro-left-mobile.svg'), url('./images/bg-pattern-intro-right-mobile.svg'), #2D2641;
     background-repeat: no-repeat;
     background-position: 0 0, 100% 205%;
-    z-index: 1;
+    /* z-index: 1; */
+    display: flex;
+    flex-direction: column;
+}
+
+.family-img {
+    width: 375px;
+    height: 451px;
 }
 
 .clean {
@@ -204,7 +202,7 @@ header {
 
 .line-1 {
     width: 50%;
-    margin: 8rem auto 0 auto;
+    margin: 4rem auto 2rem auto;
     height: 1px;
     background-color: #e0e0e0;
 }
@@ -214,6 +212,7 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 1.5rem;
+    width: 375px;
 }
 
 .section-1 h2 {
@@ -414,6 +413,10 @@ header {
     display: none;
 }
 
+.line-2 {
+    display: none;
+}
+
 @media( min-width: 1440px) {
     .navbar-m {
         display: none;
@@ -443,11 +446,11 @@ header {
     main {
         /* width: 1440px; */
         width: 100%;
-        height: 800px;
+        /* height: 800px; */
         margin: 0 auto;
-        position: relative;
-        z-index: 1;
-        background-color: black;
+        /* position: relative; */
+        /* z-index: 1; */
+        /* background-color: black; */
     }
         
     /* header {
@@ -528,25 +531,30 @@ header {
         font-family: 'Karla', sans-serif;
       }
 
-      .section-1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 1.5rem;
-        background-color: #ffffff;
-        
-      }
-
-      .intro-page {
+      .cover-page {
         background: url('./images/bg-pattern-intro-left-desktop.svg'), url('./images/bg-pattern-intro-right-desktop.svg'), #2D2641;
         background-repeat: no-repeat;
         background-position: 0 330px, 100% -50%;
         background-size: contain;
-        z-index: 0;
         height: 600px;
+        width: 100%;
+        /* margin: 0 auto; */
         position: relative;
-        margin: 0 auto;
+        /* display: flex; */
+        /* flex-direction: row;  */
+        
       }
+
+      .first-1 {
+        position: absolute;
+        top: 11rem;
+        right: 10.4rem;
+      }
+
+    .family-img {
+        width: 500px;
+        height: 600px;
+    }
 
         .clean {
             width: 540px;
@@ -601,24 +609,65 @@ header {
             background-color: #fff;
         }
 
-        .first-1 {
+        .section-1 {
+            width: 985px;
+            /* height: 165px; */
             display: flex;
-            position: absolute;
-            top: 183px;
-            left: 794px;
-            width: 100%;
-            height: 500px;
-            z-index: 1;
-            
-        }
+            /* flex-direction: column; */
+            /* align-items: center; */
+            /* padding: 1.5rem; */
+            background-color: #ffffff;
+            margin-top: 13rem;
+            border: 1px solid #ff0202;
+            margin: 13rem auto 0 auto;
+          }
 
-        .first-1 img {
-            width: 540px;
-            height: 650px;
-        }
-
-        .line-1 {
+          .section-1 .line-1 {
             width: 10%;
+            margin-left: 2rem;        
+        }
+
+        .section-1 h2 {
+            font-size: 3.5rem;
+            margin-right: 32rem;
+            margin-bottom: -3rem;
+            /* border-left: 1px solid #fa0606; */
+        }
+
+        .section-1 .portion .copy {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+        }
+
+        .section-1 .portion img {
+            display: block;
+            margin: 0 auto ;
+            margin-left: -0.1rem;
+
+        }
+
+        .section-1 .portion h3 {
+            color: #2c2830;
+            text-align: start;
+            align-items: left;
+            font-size: 1.5rem;
+        }
+
+        .section-1 .portion p {
+            color: #837d88;
+            text-align: start;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+    
+        .portion {
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+           justify-content: space-between;
+           padding: 1.5rem;
+           background-color: #ffffff;
         }
 
         .media_whole {
