@@ -545,10 +545,11 @@ header {
         background-position: 0 330px, 100% -50%;
         background-size: contain;
         height: 600px;
-        margin: 0 auto;
+        width: 100%;
+        /* margin: 0 auto; */
         position: relative;
-        display: flex;
-        flex-direction: row;
+        /* display: flex; */
+        /* flex-direction: row;  */
         
       }
 
@@ -559,8 +560,8 @@ header {
       }
 
     .family-img {
-        width: 540px;
-        height: 650px;
+        width: 500px;
+        height: 600px;
     }
 
         .clean {
