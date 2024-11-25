@@ -108,7 +108,7 @@ header {
     width: 375px;
     height: 590px;
     list-style: none;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .navbar-m ul li a {
@@ -139,7 +139,7 @@ header {
     background: url('./images/bg-pattern-intro-left-mobile.svg'), url('./images/bg-pattern-intro-right-mobile.svg'), #2D2641;
     background-repeat: no-repeat;
     background-position: 0 0, 100% 205%;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .clean {
@@ -447,7 +447,7 @@ header {
         margin: 0 auto;
         position: relative;
         z-index: 1;
-        background-color: black;
+        /* background-color: black; */
     }
         
     /* header {
@@ -544,8 +544,9 @@ header {
         background-size: contain;
         z-index: 0;
         height: 600px;
-        position: relative;
         margin: 0 auto;
+        /* width: 100%; */
+
       }
 
         .clean {
@@ -604,17 +605,13 @@ header {
         .first-1 {
             display: flex;
             position: absolute;
-            top: 183px;
-            left: 794px;
-            width: 100%;
-            height: 500px;
-            z-index: 1;
             
         }
 
         .first-1 img {
             width: 540px;
             height: 650px;
+            
         }
 
         .line-1 {
