@@ -75,15 +75,6 @@ header {
     cursor: pointer;
 }
 
-.first-1 {
-    display: flex; 
-}
-
-.first-1 img {
-    width: 375px;
-    height: 451px;
-}
-
 .navbar-m {
     font-style: normal;
     text-align: left;
@@ -411,6 +402,10 @@ header {
 }
 
 .desktop-line {
+    display: none;
+}
+
+.line-2 {
     display: none;
 }
 
