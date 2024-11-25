@@ -202,7 +202,7 @@ header {
 
 .line-1 {
     width: 50%;
-    margin: 8rem auto 0 auto;
+    margin: 4rem auto 2rem auto;
     height: 1px;
     background-color: #e0e0e0;
 }
@@ -212,6 +212,7 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 1.5rem;
+    width: 375px;
 }
 
 .section-1 h2 {
@@ -445,10 +446,10 @@ header {
     main {
         /* width: 1440px; */
         width: 100%;
-        height: 800px;
+        /* height: 800px; */
         margin: 0 auto;
-        position: relative;
-        z-index: 1;
+        /* position: relative; */
+        /* z-index: 1; */
         /* background-color: black; */
     }
         
@@ -530,15 +531,6 @@ header {
         font-family: 'Karla', sans-serif;
       }
 
-      .section-1 {
-        display: flex;
-        flex-direction: column;
-        /* align-items: center; */
-        padding: 1.5rem;
-        background-color: #ffffff;
-        
-      }
-
       .cover-page {
         background: url('./images/bg-pattern-intro-left-desktop.svg'), url('./images/bg-pattern-intro-right-desktop.svg'), #2D2641;
         background-repeat: no-repeat;
@@ -617,8 +609,65 @@ header {
             background-color: #fff;
         }
 
-        .line-1 {
+        .section-1 {
+            width: 985px;
+            /* height: 165px; */
+            display: flex;
+            /* flex-direction: column; */
+            /* align-items: center; */
+            /* padding: 1.5rem; */
+            background-color: #ffffff;
+            margin-top: 13rem;
+            border: 1px solid #ff0202;
+            margin: 13rem auto 0 auto;
+          }
+
+          .section-1 .line-1 {
             width: 10%;
+            margin-left: 2rem;        
+        }
+
+        .section-1 h2 {
+            font-size: 3.5rem;
+            margin-right: 32rem;
+            margin-bottom: -3rem;
+            /* border-left: 1px solid #fa0606; */
+        }
+
+        .section-1 .portion .copy {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+        }
+
+        .section-1 .portion img {
+            display: block;
+            margin: 0 auto ;
+            margin-left: -0.1rem;
+
+        }
+
+        .section-1 .portion h3 {
+            color: #2c2830;
+            text-align: start;
+            align-items: left;
+            font-size: 1.5rem;
+        }
+
+        .section-1 .portion p {
+            color: #837d88;
+            text-align: start;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+    
+        .portion {
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+           justify-content: space-between;
+           padding: 1.5rem;
+           background-color: #ffffff;
         }
 
         .media_whole {
