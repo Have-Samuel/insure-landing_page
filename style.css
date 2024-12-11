@@ -193,6 +193,11 @@ header {
     letter-spacing: 0.1rem;
 }
 
+.clean button:hover {
+    color: #2C2830;
+    background-color: #fff;
+}
+
 .intro-page button:hover {
     color: #b9b3b3;
     border: 2px solid #727174;
