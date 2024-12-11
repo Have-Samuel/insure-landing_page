@@ -99,7 +99,6 @@ header {
     width: 375px;
     height: 590px;
     list-style: none;
-    /* z-index: 1; */
 }
 
 .navbar-m ul li a {
@@ -428,7 +427,6 @@ header {
 
     body {
         margin: 0 auto;
-        /* overflow: hidden; */
         width: 100%;
         z-index: -1;
     }
@@ -440,30 +438,12 @@ header {
     header {
         width: 100%;
         height: 80px;
-        /* border: 2px solid red; */
     }
 
     main {
-        /* width: 1440px; */
         width: 100%;
-        /* height: 800px; */
         margin: 0 auto;
-        /* position: relative; */
-        /* z-index: 1; */
-        /* background-color: black; */
     }
-        
-    /* header {
-        width: 1440px;
-        height: 81px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 2rem;
-        position: relative;
-        z-index: 1;
-    } */
 
    .overlay {
         display: none;
@@ -538,11 +518,7 @@ header {
         background-size: contain;
         height: 600px;
         width: 100%;
-        /* margin: 0 auto; */
         position: relative;
-        /* display: flex; */
-        /* flex-direction: row;  */
-        
       }
 
       .first-1 {
@@ -595,7 +571,6 @@ header {
             font-weight: 700;
             font-style: normal;
             font-size: 0.9rem;
-            /* line-height: 1; */
             cursor: pointer;
             display: flex;
             justify-content: center;
@@ -611,14 +586,11 @@ header {
 
         .section-1 {
             width: 985px;
-            /* height: 165px; */
             display: flex;
             flex-direction: column;
             align-items: center;
-            /* padding: 1.5rem; */
             background-color: #ffffff;
             margin-top: 13rem;
-            /* border: 1px solid #ff0202; */
             margin: 13rem auto 0 auto;
           }
 
@@ -631,7 +603,6 @@ header {
             font-size: 3.5rem;
             margin-right: 32rem;
             margin-bottom: -3rem;
-            /* border-left: 1px solid #fa0606; */
         }
 
         .section-1 .portion .copy {
@@ -663,28 +634,12 @@ header {
         }
     
         .portion {
-            /* width: 1110px; */
            display: flex;
            flex-direction: row;
            flex: 1;
            align-items: center;
-           /* justify-content: space-between; */
            gap: 1.5rem;
            padding: 2.5rem 1.5rem 0 1.5rem;
-           /* justify-content: space-between; */
-           /* background-color: #ffffff; */
-        }
-
-        .media_whole {
-            height: 1025px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 9rem;
-            background: url('./images/bg-pattern-footer-desktop.svg'), #d8d8d8;
-            background-repeat: no-repeat;
-            background-position: 0 0;
-            background-size: cover;
         }
 
         .lower-part {
@@ -724,10 +679,14 @@ header {
         }
 
         .media_whole {
-            margin: 8rem auto;
-            width: 1440px;
             width: 100%;
             height: 393px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: url('./images/bg-pattern-footer-desktop.svg'), #d8d8d8;
+            background-repeat: no-repeat;
+            background-position: 0 0;
         }
 
         .start-part {
@@ -744,6 +703,30 @@ header {
             width: 1110px;
             width: 71%;
             margin: 1rem auto;
+        }
+
+        .media_whole .media {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.5rem;
+            width: 1110px;
+            margin-top: 1rem;
+        }
+
+        .media_whole .media ul {
+            list-style: none;
+            display: flex;
+            align-items: start
+        }
+
+        .up {
+            margin-top: -2rem;
+        }
+
+        .up2 {
+            margin-top: -2rem;
         }
 
     }
