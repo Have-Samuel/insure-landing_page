@@ -61,7 +61,7 @@ Users should be able to:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Have-Samuel/social-proof-section/issues).
+Feel free to check the [issues page](https://github.com/Have-Samuel/insure-landing_page/issues).
 
 ## Show your support
 
